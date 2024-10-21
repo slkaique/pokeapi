@@ -23,10 +23,11 @@
     - url:"https://pokeapi.co/api/v2/location-area/296/"
 
 # Primeiros passos
-1. Buscar os nome e id do pokemon;
-2. Salvar o resultado em um DF;
-3. Criar o loop do DF para buscar as areas do pokemon;
-4. Verificar o fluxo de requisição;
+1. Analisar o retorno de dados da API com o Postman;
+2. Buscar os nome e id do pokemon;
+3. Salvar o resultado em um DF;
+4. Criar o loop do DF para buscar as areas do pokemon;
+5. Verificar o fluxo de requisição;
 
 # Bibliotecas 
 1. Requests;
