@@ -41,11 +41,16 @@ for pokemon in lista_pokemon:
 
 df['id'] = ids
 lista_final = []
+areas_processadas = 0
 
 for _, row in df.iterrows():
     pokemon_id = row['id']
     nome = row['name']
     locais = buscar_localizacao(pokemon_id)
+    areas_processadas += 1
+    
+    if areas_processadas % 100 == 0:
+        print(f'Areas processadas: {areas_processadas}')
 
     if locais:
         for local in locais:
